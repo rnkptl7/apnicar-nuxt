@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     }
   },
   runtimeConfig: {
-    VITE_USER_API:"https://testapi.io/api/dartya",
-    VITE_CAR_API:"https://testapi.io/api/dartya/resource/cardata"
+    VITE_USER_API:process.env.VITE_USER_API,
+    VITE_CAR_API:process.env.VITE_CAR_API
   }
 })

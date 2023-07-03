@@ -236,12 +236,8 @@ useHead({
 
       .carDesc {
         padding: 2rem 1rem;
-
-        .details {
-          height: 6rem;
-        }
         .carInfo {
-          width: 70%;
+          width: 100%;
         }
       }
     }

@@ -170,7 +170,7 @@ let editCarId = reactive({});
 await carStore.getData();
 
 const trunCateDetails = (details) => {
-  return details?.slice(0, 70) + (details?.length > 70 ? "..." : "");
+  return details?.slice(0, 90) + (details?.length > 90 ? "..." : "");
 };
 
 const editItem = (value) => {
